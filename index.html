@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casos COVID</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="section-chart">
+            <h1>Números de Casos COVID-19</h1>
+            <canvas id="myChart"></canvas>
+        </section>
+        <section class="section-form">
+            <form action="">
+                <label for="total">Casos Totais</label>
+                <input type="text" name="total" id="total" placeholder="Número de casos totais">
+
+                <label for="novo">Casos Novos</label>
+                <input type="text" name="novo" id="novo" placeholder="Número de casos novos">
+
+                <label for="curado">Número de Curados</label>
+                <input type="text" name="curado" id="curado" placeholder="Número de casos curados">
+
+                <label for="morto">Número de Mortos</label>
+                <input type="text" name="morto" id="morto" placeholder="Número de mortos">
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
+        integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
+        crossorigin="anonymous"></script>
+    <script src="js/chart.js"></script>
+
+</body>
+
+</html>
